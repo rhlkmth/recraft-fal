@@ -68,6 +68,7 @@ if st.button("Generate Image"):
                         "prompt": prompt,
                         "image_size": sizes[size],
                         "style": style,
+                        "enable_safety_checker": False,
                     }
                 )
 
